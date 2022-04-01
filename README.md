@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# To-do React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a To-Do app to keep track of all your tasks of the day.
 
 ## Available Scripts
 
