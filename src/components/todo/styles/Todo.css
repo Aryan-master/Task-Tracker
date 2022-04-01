@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Montserrat:wght@100&display=swap');
+
+body{
+    background-color: #f9ea8f;
+    background-image: linear-gradient(315deg,#f9ea8f,#aff1da 74%);
+} 
+.todo-container {
+    margin-top:6vh;
+    margin-left:37vw;
+    background-color:gold;
+    background-repeat: no-repeat;
+    width:20vw;
+    height:74.5vh;
+    padding: 2vw;
+    padding-bottom: 6vw;
+    border-radius:20px;
+    border:3px solid beige;
+}
+
+.todo-container > h1,h3 {
+    color:black;
+    text-align:left;
+    line-height:5px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.todo-child-components-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-dark {
+    cursor: pointer;
+    background-color: #313552;
+    color: aliceblue;
+    padding: 1vw 2vw;
+    border-radius: 1vw;
+    margin-bottom: 2vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media(max-width:660px) {
+    .todo-container {
+        margin-left:5vw;
+        padding-bottom: 15vw;
+    }  
+    
+    .todo-dark {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+}

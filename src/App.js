@@ -1,10 +1,31 @@
+import React from "react";
 import logo from './logo.svg';
 import './App.css';
+import Todo from "../src/components/todo/Todo";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <Router>
+        <Routes>
+        <Route path="/" element={<Todo/>}/>
+        </Routes>
+      </Router>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+{/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,9 +38,4 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+      </header> */}

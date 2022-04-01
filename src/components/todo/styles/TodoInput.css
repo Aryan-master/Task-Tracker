@@ -1,0 +1,45 @@
+.todo-input-form-wrapper {
+    background-color: #FFFFFF;
+    padding: 0.3vw;
+    border-radius: 5px;
+    margin-bottom:5px;
+}
+
+.todo-input-form-wrapper input {
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 3%;
+ }
+
+ .todo-input-form-wrapper button {
+    background: #FC930A;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    width: 40%;
+    padding: 3% 0;
+    margin: .5%;
+    outline: none;
+    border: none;
+  }
+
+  .todo-input-form {
+      display: flex;
+  }
+
+  .todo-input-wrapper {
+    width: 21vw;
+  }
+
+  @media(max-width:660px) {
+    .todo-input-form-wrapper button {
+      font-size: 4vw;
+    }
+  }
